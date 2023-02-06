@@ -2,6 +2,6 @@
 
 a <- 2 + 2
 
-my_secret <- ""
+my_secret <- Sys.getenv("THESECRET")
 
 # Some comment to continue
